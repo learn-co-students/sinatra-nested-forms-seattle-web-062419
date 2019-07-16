@@ -15,7 +15,6 @@ module FormsLab
       @pirate = params[:pirate][:name]
       @weight = params[:pirate][:weight]
       @height = params[:pirate][:height]
-      
       @ship1 = params[:pirate][:ships][0]
       @ship2 = params[:pirate][:ships][1]
 
